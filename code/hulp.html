@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gateaulitis Home | Robbe Haegeman | NMDII- GDM, Artevelde University College Ghent</title>
+    <title>Gateaulitis Hulp | Robbe Haegeman | NMDII- GDM, Artevelde University College Ghent</title>
 
     <!-- bootstrap 4 css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -35,16 +35,16 @@
         <a href="#default" id="logolink"><img id="logo"src="assets/logo.png" alt="logo Gateaulitis"></a>
         <div class="navbar-right">
             <div id="links">
-                <a class="active" href="index.html">home</a>
+                <a href="index.html">home</a>
                 <a href="info.html">info</a>
                 <a href="tips.html">tips</a>
-                <a href="hulp.html">hulpgroep</a>
+                <a class="active" href="hulp.html">hulpgroep</a>
                 <a href="agenda.html">agenda</a>
                 <a href="crowdfunding.html">crowdfunding</a>
                 <a href="contact.html">contact</a>
             </div>
             <div id="menu_icon">
-                <a href="javascript:void(0);" class="nav_icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="mobilemenu()">
                         <i class="fa fa-bars"></i>
                 </a>
             </div>
@@ -52,32 +52,56 @@
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     </div>
     
-    <div class="container-fluid">
-        <div class="row home-row eerste-rij">
-            <div class="col-md-4 home-ill d-none d-md-block"> 
-                <div class="home-ill-div">
-                    <img src="assets/cupcake1.png" alt="cupcake monster">
-                </div>
-
+    <div class="container">
+        
+        <div class="row eerste-rij">
+            <div class="col-md-6 hulp-img">
+                <img class="img-left" src="assets/hulpgroep1.png" alt="">
             </div>
-
-            <div class="col-md-8  col-sm-12 offset-md-4 home-col-logo">
-                <div class="home-div-logo">
-                    <img class="home-logo" src="assets/gateaulitis.png" alt="gateaulitis logo">
-                </div>
-                <div class="home-txt txt">
-                    <h2>Hallo! Wij zijn vzw Cupcake Crush</h2>
-                    <img class="home-ill-mobile d-md-none" src="assets/cupcake1.png" alt="cupcake monster">
-                    <p>Irrationele angst voor cupcakes en de vrolijke atmosfeer die ze uitstralen, veroorzaakt extreme paniekaanvallen. Als vzw willen wij de maatschappij bewuster maken van deze vrees, die nog te weinig erkend wordt. Met onze crowdfunding hopen we geld in te zamelen voor wetenschappelijke studies die deze suikerbommen nader zullen onderzoeken. Een tiende van het steungeld gaat naar onze werking om ondersteunende en bemoedigende activiteiten op touw te zetten voor alle slachtoffers.</p>
-                    <a href="crowdfunding.html"><button type="button" class="bttns">Steun de crowdfunding</button></a>
-                </div>
-            </div>
-
-            <div class="col-md-12 footer">
-                Disclaimer| Robbe Haegeman | © 2018 Arteveldehogeschool Gent
+            <div class="col-md-6 col-sm-12 hulp-txt">
+                <h2>Wat doen we?</h2>
+                <p>Je kan bij ons terecht voor ondersteuning en informatie over zelfhulp. Daarnaast stimuleren we onderzoek rond lotgenotencontact en werken we samen met organisaties en overheden om zelfhulp te promoten.</p>
             </div>
         </div>
+
+        <div class="row">
+                <div class="col-md-6 col-sm-12 hulp-txt">
+                    <h2>Sessies</h2>
+                    <p></p>
+                </div>
+                <div class="col-md-6 hulp-img">
+                    <img src="assets/hulpgroep2.png" alt="tip 1">
+                </div>
+        </div>
+        
+        <div class="row row-card">
+            
+            <div class="col-md-6 cardblock">
+                <a href="agenda.html">
+                    <div class="bol"><i class="fa fa-calendar icon"></i></div>
+                    <div class="textblock">
+                        <h4>Bekijk onze agenda</h4>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 cardblock">
+                <a href="contact.html">
+                    <div class="bol"><i class="fa fa-user icon"></i></div>
+                    <div class="textblock">
+                        <h4>Lid worden?</h4>
+                    </div>
+                </a>
+             </div>
+            
+        </div>
+
+        <div class="col-md-12 footer">
+            Disclaimer| Robbe Haegeman | © 2018 Arteveldehogeschool Gent
+        </div>
     </div>
+
+
 </body>
 
 </html>
